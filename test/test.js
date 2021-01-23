@@ -11,6 +11,9 @@ describe('grill', function(){
         expect(res).to.have.a.property('temperature');
         expect(res).to.have.a.property('probe');
         expect(res).to.have.a.property('desiredTemperature');
+        expect(res).to.have.a.property('desiredProbeTemp');
+        expect(res).to.have.a.property('fireState');
+        expect(res).to.have.a.property('warning');
         done();
       });
     });
