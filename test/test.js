@@ -8,11 +8,10 @@ describe('grill', function(){
       var myGrill = new Grill('127.0.0.1', 8080);
         myGrill.status(function(res){
         console.log(res);
+        expect(res).to.have.a.property('temp');
+        expect(res).to.have.a.property('tempSet');
+        expect(res).to.have.a.property('probe');
         expect(res).to.have.a.property('state');
-        expect(res).to.have.a.property('temperature');
-        expect(res).to.have.a.property('probes');
-        expect(res).to.have.a.property('fireState');
-        expect(res).to.have.a.property('warning');
         done();
       });
     });
