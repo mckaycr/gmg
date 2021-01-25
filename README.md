@@ -5,5 +5,5 @@ The intent of this project is to create a plug and play module that can be used 
 
 ## Credit
 Most of my work is because of the decoding work found by these developers.
-- [Aenima4six2/gmg](https://github.com/Aenima4six2/gmg)
-- [FeatherKing/grillsrv](https://github.com/FeatherKing/grillsrv)
+- @Aenima4six2 : [Aenima4six2/gmg](https://github.com/Aenima4six2/gmg)
+- @FeatherKind : [FeatherKing/grillsrv](https://github.com/FeatherKing/grillsrv)
