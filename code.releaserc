@@ -1,4 +1,4 @@
 module.exports = {
-    repositoryUrl: 'https://github.com/Bradleykingz/semantic-release-tutorial',
-    branches: ['master','main'],
+    repositoryUrl: 'https://github.com/mckaycr/gmg',
+    branches: ['main'],
 }
