@@ -1,4 +1,4 @@
 {
- 'repositoryUrl': 'https://github.com/mckaycr/gmg',
+ 'repositoryUrl': 'git@github.com:mckaycr/gmg.git',
  'branches': ['main'],
 }
